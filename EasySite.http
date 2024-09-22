@@ -1,0 +1,6 @@
+@EasySite_HostAddress = http://localhost:5087
+
+GET {{EasySite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
