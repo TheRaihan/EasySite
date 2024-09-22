@@ -14,13 +14,13 @@ builder.Services.AddScoped<UserService>();
 // Add controllers
 builder.Services.AddControllers();
 
-// builder.Services.AddCors(options =>
-// {
-//     options.AddPolicy("AllowReactApp",
-//         policy => policy.AllowAnyOrigin()
-//                         .AllowAnyMethod()
-//                         .AllowAnyHeader());
-// });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
 
 var app = builder.Build();
 
