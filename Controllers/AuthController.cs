@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using EasySite.Services;
 using EasySite.Models;
 
-namespace EasySite.Controllers
+namespace UserAuthApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
