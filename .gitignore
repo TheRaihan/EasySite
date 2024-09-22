@@ -1,0 +1,49 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working directory
+.vscode/
+.vs/
+
+# Log files
+*.log
+
+# Dotnet artifacts
+.project
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Uncomment if you have automated package restore enabled
+# Package Restore requires `nuget.exe` and the .sln file's packages.config.
+!*.sln
+# Uncomment if you have MSBuild targets in one of your packages.
+!**/packages/repositories.config
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+
+# Web
+wwwroot/lib/
+**/node_modules/
+
+# Mono auto generated files
+mono_crash.*
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
